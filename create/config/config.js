@@ -111,6 +111,12 @@ export default {
               authority: ['admin'],
             },
             {
+              name: '工作台',
+              icon: 'smile',
+              path: '/dashboardworkplace',
+              component: './DashboardWorkplace',
+            },
+            {
               component: './404',
             },
           ],
